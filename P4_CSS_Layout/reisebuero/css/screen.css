@@ -1,6 +1,168 @@
 @charset "utf-8";
 @import url(mini-reset.css);
 
+body {
+    background-color:  #31668A;
+    font-family:  Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 80%;
+}
+
+div {
+    width: 770px;
+    position:relative;
+    margin: auto;
+    background-color: white;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 8px  #101E27;
+}
+
+header img {
+    border-radius: 10px 10px 0px 0px;  
+}
+
+header h1 {
+    font-weight: bold;
+	font-size: 38px;
+	text-align: top;
+	position: absolute;
+	color: #67819E;
+	background-color: #292829;
+    left: 380px;
+    top: 100px;
+	height: 40px;
+	width: 270px;
+	padding-top: 15px;
+	padding-left: 60px;
+	padding-bottom: 25px;
+	padding-right: 60px;
+
+}
+
+header h1 + p {
+	position: absolute;
+    left: 640px;
+    top: 165px;
+    padding: 5px;
+	color: #E8E9CB;
+	background-color: #336789;
+}
+
+nav {
+       position: absolute;
+       height: 40px;
+       width: 100%;
+       top: 240px;
+       background-color: #8F8E93;
+}
+
+ol li a{
+    height: 16px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #E8E9CB;
+    padding: 12px 30px;
+    width: 60px;
+}
+
+nav ol li ol{
+	display:none;
+}
+
+nav ol li:hover ol{
+    position: relative;
+    
+    left: 120px;
+	width: 120px;
+    height: 80px;
+    display: block;
+    clear:both;
+    color: #E8E9CB;
+    background-color: #8F8E93;
+}
+
+a:hover {
+    
+    text-decoration: none;
+    background-color: #336789;
+    
+}
+
+main { 
+    width: 400px;
+    margin-top: 60px;
+    line-height: 1.32;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main article {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+aside {
+	position: absolute;
+	width: 220px;
+	top: 240px;
+	right: 50px;
+	background-image: url(img/angebote_hg.jpg);
+    background-color: #EBE8C9;
+    background-position: bottom;  
+    background-repeat: no-repeat; 
+    min-height: 360px;
+}
+
+aside h2 {
+	height: 20px;
+	padding: 12px 0 8px 15px;
+	color: #E8E9CB;
+	background-color: #366789;
+}
+
+aside p   {
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    line-height: 1.32; 
+}
+
+aside p span  {
+    font-weight: 600;
+    display: block;
+}
+
+aside footer{
+	color: #E8E9CB;
+    position:relative;
+    vertical-align: text-bottom;
+    text-align: right;
+    font-size: 12px;
+    top: 100px;
+    margin-right: 5px;
+}
+
+address p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 
 
 
